@@ -8,7 +8,6 @@ import './App.css';
 // Calculator
 //
 //
-//
 class App extends Component {
 
   state = {
