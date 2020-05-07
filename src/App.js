@@ -4,13 +4,12 @@ import ButtonBoard from './components/ButtonBoard'
 import Logic from './logic/Logic'
 import './App.css';
 
+//
+// Calculator
+//
+//
+//
 class App extends Component {
-  // constructor() {
-
-
-  // }
-
-  //this.handleCLick = this.handleCLick.bind(this);
 
   state = {
     total: null,
