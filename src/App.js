@@ -5,7 +5,7 @@ import Logic from './logic/Logic'
 import './App.css';
 
 //
-// Calculator using react
+// Calculator created using react
 //
 class App extends Component {
 
