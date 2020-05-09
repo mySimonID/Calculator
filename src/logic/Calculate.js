@@ -2,25 +2,25 @@
 
 const Calculate = (state) => {
 
-  const firstNum = state.total || "0";
-  const secondNum = state.current || "0"
+  const firstNum = Number(state.total || "0");
+  const secondNum = Number(state.current || "0");
 
   let result = 0;
 
   switch (state.action) {
     case "+":
       //console.log(":::", state);
-      result = Number(firstNum) + Number(secondNum)
+      result = firstNum + secondNum
       break;
     case "-":
-      result = Number(firstNum) - Number(secondNum)
+      result = firstNum - secondNum
       break;
     case "x":
-      result = Number(firstNum) * Number(secondNum)
+      result = firstNum * secondNum
       break;
     case "/":
-      if (Number(secondNum) > 0) {
-        result = Number(firstNum) / Number(secondNum)
+      if (secondNum > 0) {
+        result = firstNum / secondNum
       }
       else {
         result = "divide by zero"
