@@ -1,2 +1,9 @@
 # Calculator
-react: calculator
+Calcuator created using React
+
+## Tech
+
+- React
+
+
+
