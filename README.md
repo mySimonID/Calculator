@@ -1,5 +1,5 @@
 # Calculator
-Calcuator created using React
+Calculator created using React, [here](https://mysimonid.github.io/Calculator/)
 
 ## Tech
 
